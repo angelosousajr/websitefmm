@@ -97,7 +97,7 @@ nav ul a:hover::after{
 
 .banner .banner-text{
     text-align: center;
-    margin: 100px;
+    margin: 130px;
     padding: 0 90px;
 }
 
@@ -147,4 +147,60 @@ nav ul a:hover::after{
 
 #sobre .sobre-img img{
     width: 100%;
+}
+
+#equipe{
+    background-color: #333333;
+    padding: 60px 0;
+}
+
+#equipe h3{
+    text-align: center;
+    color: white;
+}
+
+#equipe p{
+    text-align: center;
+    margin: 17px;
+    font-size: 20px;
+    color: white;
+}
+
+#equipe .equipe-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#equipe .equipe-item{
+    background-color: #CECECE;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 450px;
+}
+
+#equipe .equipe-item img{
+    border-radius: 14px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#equipe .equipe-item .nome-user{
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+}
+
+#equipe .equipe-item p1{
+    font-size: 18px;
+    margin: 20px;
+    padding: 0 15px;
+}
+
+#equipe .equipe-item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
